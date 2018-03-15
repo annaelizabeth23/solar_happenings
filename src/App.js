@@ -28,6 +28,7 @@ class App extends Component {
             </header>
             <main>
               <p>
+                
               </p>
             <Picture />
             <Solar_search />

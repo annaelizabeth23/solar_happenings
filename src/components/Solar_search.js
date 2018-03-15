@@ -99,13 +99,7 @@ export default class Solar_Search extends Component {
             return (
                 <div key = {i}><li>{`Latitude: ${item.lat}, Longitude: ${item.long}, Sunrise: ${item.sunrise}, Sunset: ${item.sunset}, My Entry: ${item.entry}`}
                 
-                {
-                    editting
-                    ?
-                    <input className="all_inputs" onChange={(e) => {this.setState({entry:e.target.value})}} />
-                    :
-                    null
-                }
+                { editting ? <input className="all_inputs" onChange={(e) => {this.setState({entry:e.target.value})}} /> : null }
 
                 <button className="edit_button all_buttons" onClick={()=> this.setState({ editting: !this.state.editting, entry }) }>Edit</button>
                 <button className="save_button all_buttons" onClick={() => this.entryUpdate(item.id)}>Save</button>

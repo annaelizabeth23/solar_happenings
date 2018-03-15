@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# Welcome to my project: Solar Happenings
+
+Solar Happenings is a project I created early in my time at DevMountain to practice React and Node. It pulls information from an API to get your sunrise and sunset times, and then allows you to create a journal entry that goes along with that particular day's "solar happening."
+
+## Tech Stack:
+- React
+- Axios
+- Node
+
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
@@ -2430,4 +2439,4 @@ In the future, we might start automatically compiling incompatible third-party m
 
 ## Something Missing?
 
-If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md) -->
